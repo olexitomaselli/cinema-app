@@ -1,1 +1,19 @@
-/*# sourceMappingURL=index.css.map */
+.text {
+  font-size: 50px;
+}
+
+.card {
+  width: 18rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.navbar ul li {
+  padding: 10px;
+}
+.navbar ul :hover {
+  color: red;
+}/*# sourceMappingURL=index.css.map */

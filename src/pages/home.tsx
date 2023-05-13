@@ -1,7 +1,13 @@
 import React from 'react'
+import '../styles/index.css'
+import { Card } from '../components/Card'
+import { NavBar } from '../components/NavBar'
 
-export const home = () => {
+export const Home = () => {
   return (
-    <div>home</div>
+    <>
+        <NavBar />
+        <Card />
+    </>
   )
 }
