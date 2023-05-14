@@ -4,6 +4,20 @@
 
 .card {
   width: 18rem;
+  flex-shrink: 0;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.buttons {
+  position: absolute;
+  width: 100%;
+  height: 7.8%;
+}
+.buttons button {
+  background-color: rgba(29, 29, 29, 0.336);
+  border-color: transparent;
 }
 
 .navbar ul {
@@ -16,4 +30,32 @@
 }
 .navbar ul :hover {
   color: red;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.listTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 24px;
+}
+
+.scroll-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.card-slide {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=index.css.map */
